@@ -66,7 +66,7 @@
 <meta property="og:description" content="##Hexo介绍Hexo是一个快速、简洁且高效的博客框架。Hexo使用Markdown来编写文章，通过Hexo生成静态网页，然后部署到服务器上。
 ###Homebrew安装Homebrew是OS X不可获取的套件管理器，我们可以通过它获取并且安装很多组件,安装方式如下：1ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew">
 <meta property="og:image" content="https://www.aswifter.com/images/gitcafe-sshkey.jpg">
-<meta property="og:updated_time" content="2016-02-14T08:55:48.000Z">
+<meta property="og:updated_time" content="2016-02-15T06:39:11.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="hexo+github/Gitcafe 搭建自己的博客（mac)">
 <meta name="twitter:description" content="##Hexo介绍Hexo是一个快速、简洁且高效的博客框架。Hexo使用Markdown来编写文章，通过Hexo生成静态网页，然后部署到服务器上。
@@ -242,7 +242,7 @@
               <span class="post-comments-count">
                 &nbsp; | &nbsp;
                 <a href="/2016/02/14/hexo-github-Gitcafe-搭建自己的博客（mac)/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2016/02/14/hexo-github-Gitcafe-搭建自己的博客（mac)/" itemprop="commentsCount"></span>
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/02/14/hexo-github-Gitcafe-搭建自己的博客（mac)/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -274,7 +274,7 @@
 <p>4、部署插件<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure></p>
 <p>5、执行<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo deploy</span><br></pre></td></tr></table></figure></p>
 <p>6、浏览器中输入 <a href="http://leopardpan.github.io/" target="_blank" rel="external">http://leopardpan.github.io/</a> 即可。</p>
-<p>###<a href="[https://gitcafe.com/](https://gitcafe.com/">Gitcafe</a>)部署<br>1、申请账号；<br>2、<a href="https://gitcafe.com/GitCafe/Help/wiki/Pages-%E7%9B%B8%E5%85%B3%E5%B8%AE%E5%8A%A9" target="_blank" rel="external">建一个跟用户名相同的项目</a>；<br>3、添加ssh key：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &#34;your name&#34;</span><br></pre></td></tr></table></figure></p>
+<p>###<a href="[https://gitcafe.com/](https://gitcafe.com/">Gitcafe</a>部署<br>1、申请账号；<br>2、<a href="https://gitcafe.com/GitCafe/Help/wiki/Pages-%E7%9B%B8%E5%85%B3%E5%B8%AE%E5%8A%A9" target="_blank" rel="external">建一个跟用户名相同的项目</a>；<br>3、添加ssh key：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &#34;your name&#34;</span><br></pre></td></tr></table></figure></p>
 <p>生成时会询问输入文件名，这个直接回车按默认的来，密码按自己的需要设置一下。<br>这样默认会在本地的～/.ssh目录下生成id_rsa，id_rsa.pub两个文件，id_rsa是私钥，id_rsa.pub是公钥。<br>cat ~/.ssh/id_rsa.pub</p>
 <p>把里面的内容拷贝到gitcafe的ssh keys设置中<a href="https://www.aswifter.com/images/gitcafe-sshkey.jpg" target="_blank" rel="external"><img src="https://www.aswifter.com/images/gitcafe-sshkey.jpg" alt=""></a></p>
 <p>4、部署插件：<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure></p>
@@ -320,11 +320,8 @@
           
   <div class="comments" id="comments">
     
-      <div id="disqus_thread">
-        <noscript>
-          Please enable JavaScript to view the
-          <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a>
-        </noscript>
+      <div class="ds-thread" data-thread-key="2016/02/14/hexo-github-Gitcafe-搭建自己的博客（mac)/"
+           data-title="hexo+github/Gitcafe 搭建自己的博客（mac)" data-url="http://yoursite.com/2016/02/14/hexo-github-Gitcafe-搭建自己的博客（mac)/">
       </div>
     
   </div>
@@ -364,7 +361,7 @@
                src="https://avatars0.githubusercontent.com/u/5039301?v=3&u=a87cd649d6d845ca37d0a3a6a50764c66acd7f6f&s=140"
                alt="Rain" />
           <p class="site-author-name" itemprop="name">Rain</p>
-          <p class="site-description motion-element" itemprop="description">一个有梦想，但有点强迫症的处女男...</p>
+          <p class="site-description motion-element" itemprop="description">一个有梦想，但有点强迫症的处女座男士...</p>
         </div>
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
@@ -383,6 +380,16 @@
         
 
         <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/lijianyu" target="_blank">
+                  
+                    <i class="fa fa-github"></i> GitHub
+                  
+                </a>
+              </span>
+            
           
         </div>
 
@@ -657,30 +664,28 @@
 
   
 
-
-
+  
+    
   
 
-    <script type="text/javascript">
-      var disqus_shortname = 'lijianyu';
-      var disqus_identifier = '2016/02/14/hexo-github-Gitcafe-搭建自己的博客（mac)/';
-      var disqus_title = 'hexo+github/Gitcafe 搭建自己的博客（mac)';
-      var disqus_url = 'http://yoursite.com/2016/02/14/hexo-github-Gitcafe-搭建自己的博客（mac)/';
+  <script type="text/javascript">
+    var duoshuoQuery = {short_name:"lijianyu"};
+    (function() {
+      var ds = document.createElement('script');
+      ds.type = 'text/javascript';ds.async = true;
+      ds.id = 'duoshuo-script';
+      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+      ds.charset = 'UTF-8';
+      (document.getElementsByTagName('head')[0]
+      || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+  </script>
 
-      function run_disqus_script(disqus_script){
-        var dsq = document.createElement('script');
-        dsq.type = 'text/javascript';
-        dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-      }
-
-      run_disqus_script('count.js');
-      
-        run_disqus_script('embed.js');
-      
-    </script>
   
+    
+  
+
+
 
 
 
