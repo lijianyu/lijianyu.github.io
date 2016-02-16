@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next muse use-motion">
+<html class="theme-next mist use-motion">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -41,7 +41,7 @@
 <link href="/css/main.css?v=0.5.0" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="blog,web," />
 
 
 
@@ -66,7 +66,7 @@ Homebrew安装Homebrew是OS X不可获取的套件管理器，我们可以通过
 <meta property="og:description" content="Hexo 介绍Hexo是一个快速、简洁且高效的博客框架。Hexo使用Markdown来编写文章，通过Hexo生成静态网页，然后部署到服务器上。
 Homebrew安装Homebrew是OS X不可获取的套件管理器，我们可以通过它获取并且安装很多组件,安装方式如下：1ruby -e &amp;#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew">
 <meta property="og:image" content="https://www.aswifter.com/images/gitcafe-sshkey.jpg">
-<meta property="og:updated_time" content="2016-02-15T08:14:25.000Z">
+<meta property="og:updated_time" content="2016-02-16T02:43:14.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo + github/gitcafe搭建自己的博客（mac)">
 <meta name="twitter:description" content="Hexo 介绍Hexo是一个快速、简洁且高效的博客框架。Hexo使用Markdown来编写文章，通过Hexo生成静态网页，然后部署到服务器上。
@@ -77,7 +77,7 @@ Homebrew安装Homebrew是OS X不可获取的套件管理器，我们可以通过
 <script type="text/javascript" id="hexo.configuration">
   var NexT = window.NexT || {};
   var CONFIG = {
-    scheme: 'Muse',
+    scheme: 'Mist',
     sidebar: {"position":"left","display":"post"},
     fancybox: true,
     motion: true,
@@ -96,6 +96,16 @@ Homebrew安装Homebrew是OS X不可获取的套件管理器，我们可以通过
   
 
 
+
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?986a4c68cbac193c08874d63898dbd7a";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
 
 
 
@@ -236,6 +246,25 @@ Homebrew安装Homebrew是OS X不可获取的套件管理器，我们可以通过
           </span>
 
           
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/web/" itemprop="url" rel="index">
+                    <span itemprop="name">web</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
 
           
             
@@ -267,6 +296,7 @@ Homebrew安装Homebrew是OS X不可获取的套件管理器，我们可以通过
 <h3 id="Homebrew安装"><a href="#Homebrew安装" class="headerlink" title="Homebrew安装"></a><a href="http://brew.sh/" target="_blank" rel="external">Homebrew</a>安装</h3><p>Homebrew是OS X不可获取的套件管理器，我们可以通过它获取并且安装很多组件,安装方式如下：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ruby -e &#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&#34;</span><br></pre></td></tr></table></figure></p>
 <h3 id="Node-js安装"><a href="#Node-js安装" class="headerlink" title="Node.js安装"></a>Node.js安装</h3><p>1.我们将采用Node管理器<a href="https://github.com/creationix/nvm" target="_blank" rel="external">nvm</a>来进行安装<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.30.1/install.sh | bash</span><br></pre></td></tr></table></figure></p>
 <p>2.安装Node.js<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvm install node &#38;&#38; nvm alias default node</span><br></pre></td></tr></table></figure></p>
+<a id="more"></a>
 <h3 id="Hexo安装"><a href="#Hexo安装" class="headerlink" title="Hexo安装"></a>Hexo安装</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br></pre></td></tr></table></figure>
 <h3 id="初始化工作"><a href="#初始化工作" class="headerlink" title="初始化工作"></a>初始化工作</h3><p>定位到你想存放的目录执行如下命令：<br><figure class="highlight ruby"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">hexo init blog</span><br><span class="line">cd blog</span><br><span class="line">npm install</span><br><span class="line">hexo server</span><br></pre></td></tr></table></figure></p>
 <p>使用hexo server，Hexo会在本地启动一个HTTP服务，这样就可以在本地打开预览效果了，地址为 <a href="http://0.0.0.0:4000" target="_blank" rel="external">http://0.0.0.0:4000</a> ，停止预览可以使用<code>Ctrl+C</code>终止掉进程。</p>
@@ -295,6 +325,14 @@ Homebrew安装Homebrew是OS X不可获取的套件管理器，我们可以通过
     </div>
 
     <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/blog/" rel="tag">#blog</a>
+          
+            <a href="/tags/web/" rel="tag">#web</a>
+          
+        </div>
       
 
       
@@ -371,7 +409,21 @@ Homebrew安装Homebrew是OS X不可获取的套件管理器，我们可以通过
           </div>
           
           
+            <div class="site-state-item site-state-categories">
+              <a href="/categories">
+                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
 
+          
+            <div class="site-state-item site-state-tags">
+              
+                <span class="site-state-item-count">7</span>
+                <span class="site-state-item-name">标签</span>
+              
+            </div>
           
 
         </nav>
@@ -447,7 +499,7 @@ Homebrew安装Homebrew是OS X不可获取的套件管理器，我们可以通过
 <div class="theme-info">
   主题 -
   <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT.Muse
+    NexT.Mist
   </a>
 </div>
 
